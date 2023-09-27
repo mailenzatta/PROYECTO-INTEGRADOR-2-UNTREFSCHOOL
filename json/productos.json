@@ -1,0 +1,50 @@
+[
+  {
+    "codigo": "Mini Sarah",
+    "descripcion": "Pollera de jean con botones",
+    "imagen": "../img/pollera-jean.jpg",
+    "detalle": "Pollera de jean celeste, lisa, con botones y bolsillos, tiro alto, una prenda que no te puede faltar. Disponible en varios talles. El diseño de esta pollera presenta un corte clásico que resalta tu figura de manera elegante. Su versatilidad la hace adecuada para una amplia gama de ocasiones, desde un look casual para el día a día hasta uno más chic para una salida nocturna.",
+    "precio": 18000,
+    "puntuacion": "★★★★"
+  },
+  {
+    "codigo": "Blusa Christy",
+    "descripcion": "Top beige, estampado con flores",
+    "imagen": "../img/remera.jpg",
+    "detalle": "Esta blusa corta de fibrana es súper especial, tiene elásticos en el pecho, cintura y mangas que generan esos frunces divinos. Su tela con flores nos tiene encantados, es de color beige con flores blancas y lilas que le dan un toque encantador. Para que te acompañe por mucho tiempo y su tela no se arruine, recomendamos lavar a mano con agua fría y jabón neutro, no retorcer ni centrifugar y secar a la sombra.",
+    "precio": 12000,
+    "puntuacion": "★★★★★"
+  },
+  {
+    "codigo": "Vestido Luna",
+    "descripcion": "Vestido corto, estampado con flores",
+    "imagen": "../img/vestido-flores.jpg",
+    "detalle": "Vestido corto de lino, negro con estampado de flores blancas, cuello en V, manga corta, línea A, para playa. Tiene botones, volados en las mangas y en la falda, y un lazo en la zona de la cintura. Es hermoso y fresco para la temporada Primavera - Verano!!",
+    "precio": 14000,
+    "puntuacion": "★★★★★"
+  },
+  {
+    "codigo": "Pantalón Alice",
+    "descripcion": "Pantalón rosado con bolsillos",
+    "imagen": "../img/pantalon.jpg",
+    "detalle": "Mantente cómoda y elegante con estos pantalones de algodón de color rosa pastel. Con su diseño clásico y ajuste favorecedor, son perfectos para cualquier ocasión, desde el trabajo hasta el fin de semana. Además, son fáciles de cuidar y mantener, ¡para que puedas disfrutarlos durante muchos años! Están confeccionados con algodón de primera calidad, son livianos y transpirables, lo que los hace ideales para climas cálidos.",
+    "precio": 22000,
+    "puntuacion": "★★★★★"
+  },
+  {
+    "codigo": "Short Molly",
+    "descripcion": "Short de jean amarillo",
+    "imagen": "../img/short-amarillo.jpg",
+    "detalle": "Un short perfecto para un día de playa o con mucho sol. Un clásico super cómodo, de jean amarillo, tiro alto, bolsillos reales, botones y elástico en la cintura. Disponible en varios talles.",
+    "precio": 17000,
+    "puntuacion": "★★★★"
+  },
+  {
+    "codigo": "Cartera Pink",
+    "descripcion": "Bolso de mano rosa",
+    "imagen": "../img/cartera.jpg",
+    "detalle": "Esta cartera rosa es super cómoda, con ella podrás lucirte y acompañar tu look en cualquier ocasión. Es perfecta para todo tipo de salidas, ya que cuenta con un diseño práctico, cómodo y elegante. Está confeccionada en cuero sintético por lo que podrás disfrutar de un complemento resistente, durable y liviano para llevar todo lo que desees de manera segura. Cuenta con forro en su interior y cierre lo que la convierte en un accesorio completo para evitar caídas o pérdidas de tus elementos más importantes. Es indispensable para llevar lo que necesites a todas partes, sin preocuparte por perder las llaves, el celular o la billetera.",
+    "precio": 30000,
+    "puntuacion": "★★★★"
+  }
+]
