@@ -2,7 +2,7 @@ const tituloProducto = document.querySelector("#tituloProducto");
 const infoProducto = document.querySelector("#infoProducto");
 const boton = document.querySelector("#button");
 
-const id = sessionStorage.getItem("id");
+const id = localStorage.getItem("id");
 const datosLocalStorage = localStorage.getItem("productos");
 
 if (datosLocalStorage !== null) {
@@ -13,4 +13,4 @@ if (datosLocalStorage !== null) {
   infoProducto.innerHTML = info;
 }
 
-boton.addEventListener("click", () => (window.location = "../index.html"));
+boton.addEventListener("click", () => (window.location = "./index.html"));

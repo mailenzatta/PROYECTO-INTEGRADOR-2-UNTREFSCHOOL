@@ -32,7 +32,7 @@ document.addEventListener("click", (event) => {
   if (event.target.tagName == "LI") {
     const id = event.target.dataset.id;
 
-    sessionStorage.setItem("id", id);
-    window.location = "productos.html";
+    localStorage.setItem("id", id);
+    window.location = "./productos.html";
   }
 });
