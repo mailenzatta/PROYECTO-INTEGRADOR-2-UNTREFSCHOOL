@@ -19,18 +19,24 @@ const cargarProductos = async () => {
 };
 
 const cardProducto = (producto) => {
-  const li = document.createElement("li");
-  li.textContent = producto.codigo;
-  li.setAttribute("data-id", productos.indexOf(producto));
-  li.classList.add("card", "col-lg-3", "col-md-4", "col-sm-12");
-  listaProductos.appendChild(li);
+  const li = `<li data-id= ${productos.indexOf(
+    producto
+  )} class="card col-lg-3 col-md-4 col-sm-12">
+    <img src=${producto.imagen} class="card-img-top mx-auto d-block"></img>
+    <div class="card-body">
+    <h5 class="card-title">${producto.codigo}</h5>
+    <p class="card-text">${producto.descripcion}</p>
+    <i class='bx bxs-message-square-add'></i>
+    </div>
+  </li>`;
+  listaProductos.innerHTML += li;
 };
 
 cargarProductos();
 
 document.addEventListener("click", (event) => {
-  if (event.target.tagName == "LI") {
-    const id = event.target.dataset.id;
+  if (event.target.tagName == "IMG" || event.target.tagName == "I") {
+    const id = event.target.closest(".card").dataset.id;
 
     localStorage.setItem("id", id);
     window.location = "./productos.html";
