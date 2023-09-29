@@ -168,19 +168,18 @@ h3 {
 }
 
 #infoProducto > span {
-  margin: 0.5em 0;
+  margin-top: 1rem;
   text-align: center;
 }
 
 .puntuacion {
-  font-size: 30px;
+  font-size: 35px;
   color: darkorange;
 }
 
 @media (min-width: 768px) {
   .presentacion {
-    font-size: large;
-    margin: 2em 10em;
+    margin: 2em 5em;
   }
 
   .card {
@@ -196,9 +195,9 @@ h3 {
   #infoProducto {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    grid-template-rows: 1fr 2fr 1fr 1fr;
+    grid-template-rows: 1fr 4fr 0.5fr 0.5fr;
     max-width: 70em;
-    margin: 0 5em;
+    margin: 0 1.5em;
   }
 
   #infoProducto > img {
@@ -207,6 +206,28 @@ h3 {
     grid-column: 2 / 3;
     justify-self: center;
     align-self: center;
+  }
+
+  #infoProducto > p {
+    padding-right: 1.5em;
+  }
+
+  #infoProducto > span {
+    margin: 0;
+  }
+}
+
+@media (min-width: 1020px) {
+  .presentacion {
+    font-size: large;
+    margin-left: 10em;
+    margin-right: 10em;
+  }
+
+  #infoProducto {
+    margin-left: 5em;
+    margin-right: 5em;
+    grid-template-rows: 1fr 4fr 1fr 1fr;
   }
 
   #infoProducto > p {
